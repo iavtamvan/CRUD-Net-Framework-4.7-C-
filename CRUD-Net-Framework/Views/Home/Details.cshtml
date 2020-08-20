@@ -1,0 +1,43 @@
+﻿@model CRUD_Net_Framework.Models.OBAT
+@{
+    ViewBag.Title = "Details";
+}
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+</head>
+<body>
+    <h2 class="text-center">Details Obat</h2>
+    <a href="../ViewDataObat"><=Back to View Data</a>
+
+    <table>
+        <tr>
+            <th>Nama Obat</th>
+            <td>@Model.nama_obat</td>
+        </tr>
+        <tr>
+            <th>Jenis Obat</th>
+            <td>@Model.jenis_obat</td>
+        </tr>
+        <tr>
+            <th>Harga Obat</th>
+            <td>@Model.harga_obat</td>
+        </tr>
+    </table>
+
+</body>
+</html>

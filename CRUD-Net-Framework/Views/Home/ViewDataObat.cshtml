@@ -1,0 +1,46 @@
+﻿@model List<CRUD_Net_Framework.Models.OBAT>
+@{
+    ViewBag.Title = "ViewDataObat";
+}
+
+<h2 class="text-center">Data Obat</h2>
+<a href="AddObat">Tambah Data Obat</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nama Obat
+            </th>
+            <th>
+                Jenis Obat
+            </th>
+            <th>
+                Harga Obat
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.nama_obat
+                </td>
+                <td>
+                    @item.jenis_obat
+                </td>
+                <td>
+                    @item.harga_obat
+                </td>
+                <td>
+                    <a href="EditObat\@item.id">EditUser</a> |
+                    <a href="Details\@item.id">Details</a> |
+                    <a href="DeleteObat\@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

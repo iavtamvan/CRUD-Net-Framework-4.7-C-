@@ -1,0 +1,17 @@
+﻿@model CRUD_Net_Framework.Models.OBAT
+@{
+    ViewBag.Title = "EditObat";
+}
+
+<h2>EditObat</h2>
+<a href="../ViewDataObat"><=Back to View Data</a>
+
+@using (Html.BeginForm("EditObats", "Home", FormMethod.Post, new { id = "DialogForm" }))
+{
+    @Html.HiddenFor(model => model.id, new { id = "Id" })
+    @Html.TextBoxFor(model => model.nama_obat, new { id = "nama_obat", placeholder = "Nama Obat" })
+    @Html.TextBoxFor(model => model.jenis_obat, new { id = "jenis_obat", placeholder = "Jenis Obat" })
+    @Html.TextBoxFor(model => model.harga_obat, new { id = "harga_obat", placeholder = "Harga Obat" })
+
+    <button onclick="Submit();return false;" class="k-button">Simpan</button>
+}
