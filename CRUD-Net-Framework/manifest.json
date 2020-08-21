@@ -1,0 +1,60 @@
+{
+  "background_color": "#ffffff",
+  "description": "This is a description for the application.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "Content/images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-114x114.png",
+      "sizes": "114x114",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-196x196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Content/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "MyApp - PWA testing",
+  "scope": "/",
+  "short_name": "MyApp",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "firebase": [
+    {
+      "gcm_sender_id": "911760915108",
+      "name": "Push Notifications FCM"
+    }
+  ]
+}
