@@ -51,10 +51,5 @@
   "short_name": "MyApp",
   "start_url": "/",
   "theme_color": "#ffffff",
-  "firebase": [
-    {
-      "gcm_sender_id": "911760915108",
-      "name": "Push Notifications FCM"
-    }
-  ]
+  "gcm_sender_id": "911760915108"
 }

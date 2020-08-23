@@ -77,7 +77,7 @@ self.addEventListener('notificationclick', function (event) {
     }
 });
 
-// push notification fcm
+// push notification service workers
 self.addEventListener('push', function (event) {
     var body;
     if (event.data) {

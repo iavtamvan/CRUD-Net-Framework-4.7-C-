@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iavtamvan/CRUD-Net-Framework-4.7-C-.git"
+  },
+  "author": "iav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iavtamvan/CRUD-Net-Framework-4.7-C-/issues"
+  },
+  "homepage": "https://github.com/iavtamvan/CRUD-Net-Framework-4.7-C-#readme",
+  "dependencies": {
+    "firebase": "^7.19.0"
+  }
+}

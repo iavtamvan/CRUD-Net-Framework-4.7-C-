@@ -206,6 +206,7 @@
     <Content Include="Content\images\Icon-512x512.png" />
     <Content Include="Content\images\icon-72x72.png" />
     <Content Include="favicon.ico" />
+    <Content Include="firebase-messaging-sw.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
